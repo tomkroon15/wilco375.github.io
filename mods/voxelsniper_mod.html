@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+    <head>
+        <title>VoxelSniper Mod</title>
+		<link rel="stylesheet" type="text/css" href="mods.css">
+    </head>
+
+    <body>
+        <div id="content">
+		
+			<img src="../images/logo.png" id="logo_img"/>
+			<div id="navigation_bar">
+				<table id="navigation_bar_table"><tbody>
+					<tr>
+						<td class="navigation_bar_item"><a class="navigation_bar_link" href="../index.html">All mods</a></td>
+						<td class="navigation_bar_item"><a class="navigation_bar_link" href="https://www.youtube.com/user/wilcovanbeijnum">Youtube</a></td>
+						<td class="navigation_bar_item"><a class="navigation_bar_link" href="http://www.minecraftforum.net/members/wilco375">Minecraft Forum</a></td>
+						<td class="navigation_bar_item"><a class="navigation_bar_link" href="../permissions.html">Permissions</a></td>
+						<td class="navigation_bar_item"><a class="navigation_bar_link" href="../contact.html">Contact</a></td>
+					</tr>
+				</tbody></table>
+			</div>
+			<br/>
+			<h2 id="page_title">VoxelSniper Mod</h2>
+			<hr>
+			<div id="description">
+				<h3>Explanation</h3>
+				[Explanation]<br>This mod has two parts:<br>&bull; VoxelSniping<br>You can spawn in structures by shooting arrows. Enable by clicking the "V" button and clicking the top button.<br>Options:<br>
+				- You can spawn in Spheres, Hollow Spheres, Disks, Cubes, Hollow Cubes and Platforms<br>- You can set the replace mode to only replace blocks, air or both<br>- You can set any radius<br>- You can set the block
+				<br><br>&bull; Painting<br>This will replace any blocks in a set radius around you with the set block. Block and radius can be configured by tapping the "P" button
+				<br><br><h3>Videos</h3>Feature showcase:
+				<br><iframe width="638" height="358" src="http://www.youtube.com/embed/918PYk8c-VA" frameborder="0" allowfullscreen=""></iframe><br>
+				<br>
+				Timelapse of a little build I did (should be clear now why I'm a mod maker and not a map maker XD, but you do get a good image of the potential of this mod):
+				<br><iframe width="638" height="358" src="http://www.youtube.com/embed/4Mfl7VWssi0" frameborder="0" allowfullscreen=""></iframe><br>
+				<br>
+				<h3>Download</h3>
+				<a href="http://adf.ly/19g4fS" rel="nofollow" target="_blank">http://adf.ly/1IM0cH</a><br>
+			</div>
+		</div>
+		
+		<script type="text/javascript">
+			var width =  500;
+			var height = width/16*9;
+			var iframes = document.getElementsByTagName("iframe");
+			for(i = 0;i<iframes.length;i++){
+				iframes[i].width = width;
+				iframes[i].height = height;
+			}
+			
+			if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+				changeCSS("modsmobile.css");
+				viewport = document.querySelector("meta[name=viewport]");
+				viewport.setAttribute('content', 'width=device-width; initial-scale=2.0; maximum-scale=2.0; user-scalable=0;');
+			}
+			function changeCSS(cssFile) {
+				var link = document.querySelector("link[rel=stylesheet]");
+				link.setAttribute("href", cssFile);
+			}
+		</script>
+	</body>
+</html>

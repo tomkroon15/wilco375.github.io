@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Permissions</title>
+		<link rel="stylesheet" type="text/css" href="mods/mods.css">
+		<meta name="viewport">  
+		
+    </head>
+
+    <body>
+		<div id="content">
+			<img src="images/logo.png" id="logo_img"/>
+			<div id="navigation_bar">
+				<table id="navigation_bar_table">
+					<tr>
+						<td class="navigation_bar_item"><a class="navigation_bar_link" href="index.html">All mods</a></td>
+						<td class="navigation_bar_item"><a class="navigation_bar_link" href="https://www.youtube.com/user/wilcovanbeijnum">Youtube</a></td>
+						<td class="navigation_bar_item"><a class="navigation_bar_link" href="http://www.minecraftforum.net/members/wilco375">Minecraft Forum</a></td>
+						<td class="navigation_bar_item"><a class="navigation_bar_link" href="permissions.html">Permissions</a></td>
+						<td class="navigation_bar_item"><a class="navigation_bar_link" href="contact.html">Contact</a></td>
+					</tr>
+				</table>
+			</div>
+			<br/>
+			<h2 id="page_title">Permissions</h2>
+			<hr>
+			<div id="mods_list">
+				<b>Sharing</b><br>
+				&bull; You may only use the adf.ly link or forum post link to share this content. Never share using the direct link<br>
+				<b>Reposting</b><br>
+				&bull; You may repost my mods on other forums as long as the above condition is met<br>
+				<b>Modding</b><br>
+				&bull; If you want to use (a part of) my mod for your mod(pack), please contact me to get permission<br>
+			</div>
+		</div>
+		
+		<script type="text/javascript">
+			
+			if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+				changeCSS("indexmobile.css");
+				viewport = document.querySelector("meta[name=viewport]");
+				viewport.setAttribute('content', 'width=device-width; initial-scale=2.0; maximum-scale=2.0; user-scalable=0;');
+			}
+			function changeCSS(cssFile) {
+				var link = document.querySelector("link[rel=stylesheet]");
+				link.setAttribute("href", cssFile);
+			}
+		</script>
+        
+    </body>
+</html>
