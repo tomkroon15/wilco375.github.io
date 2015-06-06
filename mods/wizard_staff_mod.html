@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Wizard Staff Mod</title>
+		<link rel="stylesheet" type="text/css" href="mods.css">
+    </head>
+
+    <body>
+        <div id="content">
+		
+			<img src="../images/logo.png" id="logo_img"/>
+			<div id="navigation_bar">
+				<table id="navigation_bar_table"><tbody>
+					<tr>
+						<td class="navigation_bar_item"><a class="navigation_bar_link" href="../index.html">All mods</a></td>
+						<td class="navigation_bar_item"><a class="navigation_bar_link" href="https://www.youtube.com/user/wilcovanbeijnum">Youtube</a></td>
+						<td class="navigation_bar_item"><a class="navigation_bar_link" href="http://www.minecraftforum.net/members/wilco375">Minecraft Forum</a></td>
+						<td class="navigation_bar_item"><a class="navigation_bar_link" href="../permissions.html">Permissions</a></td>
+						<td class="navigation_bar_item"><a class="navigation_bar_link" href="../contact.html">Contact</a></td>
+					</tr>
+				</tbody></table>
+			</div>
+			<br/>
+			<h2 id="page_title">Wizard Staff Mod</h2>
+			<hr>
+			<div id="description">
+				<h3>Explanation</h3>
+				This Thaumcraft-inspired mod adds in a wand with foci. It currently contains 8 different foci, but I plan to add more later.<br>
+				<br>
+				- Wizard Staff - This is the first item you need. To select a focus, click the circle in the bottom-right corner and select the focus you'd like to use. Every action costs durability of this wand. It has a durability of 4096.<br>
+				- Advanced Wizard Staff - Same as the Wizard Staff, but has 10x more durability (40960). Is crafted with a Diamond Block and a diamond instead of 2 diamonds <br>
+				- Portable Hole Focus - This focus makes a temporary 3x3x16 hole in a wall, so you can walk through it - One use costs 256 durability<br>
+				- Healing Focus - Upon use, will heal the player half a heart at the time - One use costs 128 durability<br>
+				- Harming - This focus has two levels: Harming I will do 6 half-hearts of damage and costs 12 durability per hit, and Harming II will do 10 half-hearts of damage and costs 16 durability per hit. <br>
+				- Shielding - When you use this focus you'll be invincible for 15 seconds, and all damage will be negated - One use costs 256 durability. After use, this focus has a cooldown period of 60 seconds<br>
+				- Floating - When you're holding your wand with this focus, you'll no longer fall like a brick, but you'll float down like a chicken, and recieve no fall damage - This focus costs 20 durability per second whilst falling<br>
+				- Relocation - Tap a block with this focus and it'll disappear. It'll be placed down where you click next. Chests and Furnaces will keep their content while doing this - One block movement costs 256 durability<br>
+				- Equal Trade - Tap a block and that block, and all the blocks around it of the same type will be replaced with the block you have in the slot after your wand - Each replacement costs 8 durability - It will replace a maximum of 32 blocks in one click<br>
+				<br>
+				Crafting recipes can be found at the end of the video V<br>
+				<br>
+				<h3>Video</h3>
+				V1.0<br>
+				<iframe src="http://www.youtube.com/embed/MWGl5D54M6k" frameborder="0" allowfullscreen=""></iframe><br>
+				V1.5+V2.0 update video<br>
+				<iframe src="http://www.youtube.com/embed/bFlsnEtjftw" frameborder="0" allowfullscreen=""></iframe><br>
+				<br>
+				<h3>Installation - IMPORTANT</h3>
+				The download will be a zip file that contains both the script and a folder named WizardStaffMod. You can import the script in your own way, but you have to copy that WizardStaffMod folder to the /games/com.mojang/ folder on your internal storage/sd-card. If you don't, this mod wont work.<br>
+				<br>
+				<h3>Download</h3>
+				<a href="http://adf.ly/1CfI7M" rel="nofollow" target="_blank">http://adf.ly/1CfI7M</a><br>
+				<br>
+				<h3>Changelog</h3>
+				V1.0<br>
+				Initial release, added Portable Hole, Healing, Harming, Shielding and Floating foci<br>
+				V1.0.1<br>
+				Fixed mobs not dropping items on death. Harming now lights mobs on fire for 2 seconds<br>
+				V1.5<br>
+				Added Relocation Focus<br>
+				V2.0<br>
+				Added Equal Trade Focus - The code of this is based on the Gravel Destroyer Mod by DAW330073 and is used with permission<br>
+				V2.2<br>
+				Added Advanced Wizard Staff, Fixed Harming Foci, you can now kill endermen with it (No more fire damage) :p, Portable Hole Focus now has a range of 16 blocks (Like the Portable Hole on PC)<br>
+			</div>
+		</div>
+		
+		<script type="text/javascript">
+			var width =  500;
+			var height = width/16*9;
+			var iframes = document.getElementsByTagName("iframe");
+			for(i = 0;i<iframes.length;i++){
+				iframes[i].width = width;
+				iframes[i].height = height;
+			}
+			
+			if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+				changeCSS("modsmobile.css");
+				viewport = document.querySelector("meta[name=viewport]");
+				viewport.setAttribute('content', 'width=device-width; initial-scale=2.0; maximum-scale=2.0; user-scalable=0;');
+			}
+			function changeCSS(cssFile) {
+				var link = document.querySelector("link[rel=stylesheet]");
+				link.setAttribute("href", cssFile);
+			}
+		</script>
+	</body>
+</html>

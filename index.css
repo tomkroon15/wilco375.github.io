@@ -1,0 +1,77 @@
+body{
+    font-family: "arial";
+	background-color: #EEEEEE;
+	width:100%;
+}
+#content{
+	background-color: #FFFFFF;
+	margin:50px 150px;
+	padding:20px;
+}
+h2{
+	position:relative;
+	top:-0.75em;
+	color:#000000;
+}
+a:hover, a:visited, a:link, a:active{
+    text-decoration: none;
+	color:black;
+}
+.navigation_bar_item{
+	border:2px solid #EEEEEE;
+	padding:5px;
+	background-color: #CCCCCC;
+}
+.navigation_bar_link{
+	color:#000000;
+}
+#navigation_bar{
+	width:100%;
+	background-color:#EEEEEE;
+}
+#page_title{
+	padding:0px;
+	margin-bottom:-1em;
+}
+#logo_img{
+	height:5em;
+	padding:1em;
+}
+
+#mods_list{
+	padding:15px;
+}
+.mod_img{
+	width:10em;
+	height:10em;
+}
+.mod_title{
+	font-size:1.5em;
+	margin:0px;
+	margin-bottom:0.75em;
+}
+.mod_desc, .mod_info{
+	margin:0px;
+}
+.mod_tabledata{
+	vertical-align:top;
+	padding-left:0.25em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
