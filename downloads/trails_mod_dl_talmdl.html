@@ -3,7 +3,7 @@
     <head>
         <title>Download Trails Mod</title>
 		<link rel="stylesheet" type="text/css" href="downloads.css">
-		<meta name="viewport">  
+		
 		
     </head>
 
@@ -31,6 +31,7 @@
 			<hr>
 			<div id="download">
 				
+				
 				<a href="https://www.dropbox.com/s/p0ji8daqpga9g3t/trails.js?dl=1"><h3>Trails Mod</h3></a>
 
 				<br>
@@ -49,13 +50,12 @@
 			if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 				changeCSS("downloadsmobile.css");
 				viewport = document.querySelector("meta[name=viewport]");
-				viewport.setAttribute('content', 'width=device-width; initial-scale=0.5; maximum-scale=0.5; user-scalable=0;');
+				viewport.setAttribute('content', 'width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;');
 			}
 			function changeCSS(cssFile) {
 				var link = document.querySelector("link[rel=stylesheet]");
 				link.setAttribute("href", cssFile);
 			}
-			
 			function onOptionSelect(version){
 				
 			}
