@@ -41,14 +41,6 @@
 		</div>
 		
 		<script type="text/javascript">
-			var width =  500;
-			var height = width/16*9;
-			var iframes = document.getElementsByTagName("iframe");
-			for(i = 0;i<iframes.length;i++){
-				iframes[i].width = width;
-				iframes[i].height = height;
-			}
-			
 			if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 				changeCSS("modsmobile.css");
 				viewport = document.querySelector("meta[name=viewport]");
@@ -57,6 +49,13 @@
 			function changeCSS(cssFile) {
 				var link = document.querySelector("link[rel=stylesheet]");
 				link.setAttribute("href", cssFile);
+			}
+			
+			var iframes = document.getElementsByTagName("iframe");
+			for(i = 0;i<iframes.length;i++){
+				width = iframes[i].width;
+				var height = width/16*9;
+				iframes[i].height = height;
 			}
 		</script>
 	</body>
