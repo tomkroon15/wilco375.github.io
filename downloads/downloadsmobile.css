@@ -13,7 +13,7 @@ h2{
 	top:-0.75em;
 	color:#000000;
 }
-td a:hover, td a:visited, td a:link, td a:active{
+a:hover, a:visited, a:link, a:active{
     text-decoration: none;
 	color:black;
 }
@@ -40,3 +40,63 @@ td a:hover, td a:visited, td a:link, td a:active{
 	height:5em;
 	padding:1em;
 }
+
+h3, h4{
+	padding:0px;
+	margin:0.25em 0px;
+}
+#description{
+	padding:15px;
+}
+#spoiler_arrow{
+	height=1em;
+}
+.link{
+	background-color:#EEEEEE;
+	padding:2.5px;
+}
+#spoiler_content{
+	background-color:#EEEEEE;
+	padding:2.5px;
+	margin-top:5px;
+}
+.structure_images{
+	width:100px;
+	height:100px;
+}
+td{
+	border: 1px solid black;
+	padding: 5px;
+}
+b{
+	padding:2.5px;
+}
+#ism_images_table{
+	max-width:90%;
+	table-layout:fixed;
+}
+#more_info{
+	background-color:#EEEEEE;
+	padding:2.5px;
+	margin-top:5px;
+}
+iframe{
+	width:90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
