@@ -3,6 +3,8 @@
     <head>
         <title>Teleport Pad Mod</title>
 		<link rel="stylesheet" type="text/css" href="mods.css">
+		
+		<script src="mods.js"></script>
     </head>
 
     <body>
@@ -30,9 +32,10 @@
 			<div id="description">
 				<h3>Explanation</h3>
 				This mod adds in a Teleport Pad, which can be crafted with a diamond and 8 redstone. When placed down it asks you to give it a name by typing the command /teleporter name &lt;name&gt;. Once you have placed down and named two or more teleporters, you can teleport between them by simply stepping on to one, and selecting the teleport pad you want to go to in the GUI that pops up.
-				<br><br>
+				<br>
 				A teleport pad should automatically be removed from the GUI once broken. If this isn't the case you can manually remove it with the command /teleporter remove &lt;name&gt;<br>
-				<br><iframe width="638" height="358" src="http://www.youtube.com/embed/Lzm5wQpSjkM" frameborder="0" allowfullscreen=""></iframe><br>
+				<br><h3>Video</h3>
+				<iframe width="638" height="358" src="http://www.youtube.com/embed/Lzm5wQpSjkM" frameborder="0" allowfullscreen=""></iframe><br>
 				<br>
 				<h3>Download</h3>
 				<a href="http://adf.ly/19g4fS" rel="nofollow" target="_blank">http://adf.ly/19g4fS</a><br>
@@ -41,16 +44,6 @@
 		</div>
 		
 		<script type="text/javascript">
-			if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-				changeCSS("modsmobile.css");
-				viewport = document.querySelector("meta[name=viewport]");
-				viewport.setAttribute('content', 'width=device-width; initial-scale=2.0; maximum-scale=2.0; user-scalable=0;');
-			}
-			function changeCSS(cssFile) {
-				var link = document.querySelector("link[rel=stylesheet]");
-				link.setAttribute("href", cssFile);
-			}
-			
 			var iframes = document.getElementsByTagName("iframe");
 			for(i = 0;i<iframes.length;i++){
 				width = iframes[i].width;

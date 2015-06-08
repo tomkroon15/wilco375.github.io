@@ -4,7 +4,18 @@
         <title>All mods</title>
 		<link rel="stylesheet" type="text/css" href="index.css">
 		 
-		
+		<script type="text/javascript">
+			
+			if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+				changeCSS("indexmobile.css");
+				viewport = document.querySelector("meta[name=viewport]");
+				viewport.setAttribute('content', 'width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;');
+			}
+			function changeCSS(cssFile) {
+				var link = document.querySelector("link[rel=stylesheet]");
+				link.setAttribute("href", cssFile);
+			}
+		</script>
     </head>
 
     <body>
@@ -227,26 +238,51 @@
 							<p class="mod_info">Current version: V1.0<br/>
 							Tested Minecraft PE version(s): 0.10, 0.9, 0.8</p>
 				</td></tr></table>
+				<hr>
+				<table><tr><td>
+							<a href="mods/ethereal_glass_mod.html" class="mod_item">
+								<img src="images/ethereal_glass_mod.png" class="mod_img"/>
+							</a>
+						</td>
+						<td  class="mod_tabledata">
+							<a href="mods/ethereal_glass_mod.html" class="mod_item">
+								<p class="mod_title"><b>Ethereal Glass Mod</b></p>
+							</a>
+							<p class="mod_desc">Walk through this glass while other mobs can't<p>
+							<p class="mod_info">Current version: V1.0<br/>
+							Tested Minecraft PE version(s): 0.8</p>
+				</td></tr></table>
+				<hr>
+				<table><tr><td>
+							<a href="mods/survival_modpack.html" class="mod_item">
+								<img src="images/survival_modpack.png" class="mod_img"/>
+							</a>
+						</td>
+						<td  class="mod_tabledata">
+							<a href="mods/survival_modpack.html" class="mod_item">
+								<p class="mod_title"><b>Ultimate Survival Modpack</b></p>
+							</a>
+							<p class="mod_desc">A modpack that makes survival (MUCH) harder<p>
+							<p class="mod_info">Current version: V1.1<br/>
+							Tested Minecraft PE version(s): 0.9</p>
+				</td></tr></table>
+				<hr>
+				<table><tr><td>
+							<a href="mods/colorable_leaves_mod.html" class="mod_item">
+								<img src="images/colorable_leaves_mod.png" class="mod_img"/>
+							</a>
+						</td>
+						<td  class="mod_tabledata">
+							<a href="mods/colorable_leaves_mod.html" class="mod_item">
+								<p class="mod_title"><b>Colorable Leaves Mod</b></p>
+							</a>
+							<p class="mod_desc">Create very colorful trees!<p>
+							<p class="mod_info">Current version: V1.0<br/>
+							Tested Minecraft PE version(s): 0.9, 0.8</p>
+				</td></tr></table>
 			</div>
 			
-			
 			<script type="text/javascript" src="http://srvpub.com/adServe/banners?tid=25177_56278_1"></script>
-			
-			
 		</div>
-		
-		<script type="text/javascript">
-			
-			if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-				changeCSS("indexmobile.css");
-				viewport = document.querySelector("meta[name=viewport]");
-				viewport.setAttribute('content', 'width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;');
-			}
-			function changeCSS(cssFile) {
-				var link = document.querySelector("link[rel=stylesheet]");
-				link.setAttribute("href", cssFile);
-			}
-		</script>
-        
     </body>
 </html>
