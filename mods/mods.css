@@ -4,7 +4,7 @@ body{
 }
 #content{
 	background-color: #FFFFFF;
-	margin:100px 150px;
+	margin:2.5% 5%;
 	padding:20px;
 }
 a:hover, a:visited, a:link, a:active{
@@ -33,6 +33,7 @@ a:hover, a:visited, a:link, a:active{
 }
 #logo_img{
 	height:5em;
+	max-width:90%;
 	padding:1em;
 }
 h3, h4{
