@@ -80,6 +80,10 @@ b{
 }
 iframe{
 	width:500px;
+	max-width:100%;
+}
+.img-responsive{
+	width:100%;
 }
 
 
