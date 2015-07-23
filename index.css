@@ -1,6 +1,7 @@
+/*--------------Site defaults-------------*/
 body{
     font-family: "arial";
-	background-color: #EEEEEE;
+	background-color: #33CC33;
 	width:100%;
 }
 #content{
@@ -17,18 +18,34 @@ a:hover, a:visited, a:link, a:active{
     text-decoration: none;
 	color:black;
 }
+
+/*--------------Navbar-------------*/
 .navigation_bar_item{
-	border:2px solid #EEEEEE;
-	padding:5px;
-	background-color: #CCCCCC;
+	display:inline-block;
+	padding: 10px;
 }
 .navigation_bar_link{
 	color:#000000;
 }
-#navigation_bar{
-	width:100%;
-	background-color:#EEEEEE;
+.navigation_bar_item:hover{
+	background-color:#70DB70;
+	/*border: 10px solid #70DB70;*/
+	padding: 10px;
 }
+#navigation_bar{
+	width:200%;
+	position:relative;
+	background-color:#33CC33;
+	margin:0px;
+	padding:0px;
+	list-style: none;
+	right: 20px;
+}
+#left_navbar_link{
+	padding-left: 5px;
+}
+
+/*--------------Header-------------*/
 #page_title{
 	padding:0px;
 	margin-bottom:-1em;
@@ -37,14 +54,22 @@ a:hover, a:visited, a:link, a:active{
 	height:5em;
 	max-width:90%;
 	padding:1em;
+	margin-bottom:20px;
 }
 
+/*--------------List-------------*/
 #mods_list{
 	padding:15px;
 }
 .mod_img{
 	width:10em;
 	height:10em;
+	background:none;
+}
+.mod_img:hover{
+	width:0;
+	height:0;
+	border:5em solid #33cc33;
 }
 .mod_title{
 	font-size:1.5em;
@@ -58,6 +83,13 @@ a:hover, a:visited, a:link, a:active{
 	vertical-align:top;
 	padding-left:0.25em;
 }
+hr{
+	border: 1px solid #33CC33;
+}
+.mod_item:hover{
+	color:#33cc33;
+}
+
 
 
 
