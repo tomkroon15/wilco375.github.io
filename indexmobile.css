@@ -17,20 +17,23 @@ a:hover, a:visited, a:link, a:active{
     text-decoration: none;
 	color:black;
 }
-.navigation_bar_item{
-	border:2px solid #EEEEEE;
-	padding:5px;
-	width:20%;
-	text-align:center;
-	vertical-align:center;
-	background-color: #CCCCCC;
-}
 .navigation_bar_link{
 	color:#000000;
 }
+.navigation_bar_item:hover{
+	background-color:#70DB70;
+	/*border: 10px solid #70DB70;*/
+	padding: 10px;
+}
+.navigation_bar_item{
+	padding:15px;
+}
 #navigation_bar{
 	width:100%;
-	background-color:#EEEEEE;
+	background-color:#33CC33;
+	margin:0px;
+	padding:0px;
+	list-style: none;
 }
 #page_title{
 	padding:0px;
