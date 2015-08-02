@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <title>Camouflage Block Mod</title>
+        <title>Teleport Pad Mod</title>
 		<link rel="stylesheet" type="text/css" href="mods.css">
 		
 		<script src="mods.js"></script>
@@ -31,15 +31,18 @@
 			</script>
 			
 			
-			<h2 id="page_title">Camouflage Block Mod</h2>
+			<h2 id="page_title">Teleport Pad Mod</h2>
 			<hr>
 			<div id="description">
 				<h3>Explanation</h3>
-				The Camouflage Block is crafted using 8 wood and 1 bonemeal. You can change it's texture by clicking on it with a block in your hand. To remove the block from the Camouflage Block, just break it again.
-				<br><iframe width="638" height="358" src="http://www.youtube.com/embed/ecIDgB75JmM" frameborder="0" allowfullscreen=""></iframe><br>
+				This mod adds in a Teleport Pad, which can be crafted with a diamond and 8 redstone. When placed down it asks you to give it a name by typing the command /teleporter name &lt;name&gt;. Once you have placed down and named two or more teleporters, you can teleport between them by simply stepping on to one, and selecting the teleport pad you want to go to in the GUI that pops up.
+				<br>
+				A teleport pad should automatically be removed from the GUI once broken. If this isn't the case you can manually remove it with the command /teleporter remove &lt;name&gt;<br>
+				<br><h3>Video</h3>
+				<iframe width="638" height="358" src="http://www.youtube.com/embed/Lzm5wQpSjkM" frameborder="0" allowfullscreen=""></iframe><br>
 				<br>
 				<h3>Download</h3>
-				<a href="../downloads/camoblock_mod_dl_cmbokmdl.html" rel="nofollow" target="_blank">Download here</a><br>
+				<a href="../downloads/teleport_pad_mod_dl_tlprpdmdl.html" rel="nofollow" target="_blank">http://adf.ly/19g4fS</a><br>
 			</div>
 			
 			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
