@@ -35,9 +35,10 @@ a:hover, a:visited, a:link, a:active{
 .navigation_bar_item{
 	padding:15px;
 }
-#navbar_div{
+arrow_up.svg#navbar_div{
 	font-size: 200%;
 	position: fixed;
+	z-index: -1;
 	background-color:#33CC33;
 	top: 0;
 	left: 0;
