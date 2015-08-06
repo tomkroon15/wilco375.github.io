@@ -3,14 +3,25 @@
     <head>
         <title>Mo' Crafting Recipes Mod</title>
 		<link rel="stylesheet" type="text/css" href="mods.css">
-		
-		<script src="mods.js"></script>
+		<script>
+    		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+				changeCSS("modsmobile.css");
+				viewport = document.querySelector("meta[name=viewport]");
+				viewport.setAttribute('content', 'width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;');
+			}
+			
+			function changeCSS(cssFile) {
+				var link = document.querySelector("link[rel=stylesheet]");
+				link.setAttribute("href", cssFile);
+			}
+		</script>
     </head>
 
     <body>
-        <div id="content">
-		
-			<img src="../images/logo.png" id="logo_img"/>
+		<div id="navbar_div">
+			<div id="mobile_navbar" onclick="onMobileNavbarClick()">
+				<img id="menu_button" onclick="onMobileNavbarClick()" src="../images/menu.svg"></img>Menu
+			</div>
 			<ul id="navigation_bar">
 				<li class="navigation_bar_item"><a class="navigation_bar_link" id="left_navbar_link" href="../index.html">All mods</a></li>
 				<li class="navigation_bar_item"><a class="navigation_bar_link" href="https://www.youtube.com/user/wilcovanbeijnum">Youtube</a></li>
@@ -18,6 +29,13 @@
 				<li class="navigation_bar_item"><a class="navigation_bar_link" href="../permissions.html">Permissions</a></li>
 				<li class="navigation_bar_item"><a class="navigation_bar_link" href="../contact.html">Contact</a></li>
 			</ul>
+		</div>
+		
+
+		<script src="mods.js"></script>	
+        <div id="content">
+		
+			<img src="../images/logo.svg" id="logo_img"/>
 			<br/>
 			
 			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -37,7 +55,7 @@
 				<h3>Explanation</h3>
 				This mod adds in a bunch of new crafting recipes that allow you to make almost any block in Vanilla Minecraft!<br><br>
 				
-				<a id="show_id" onclick="document.getElementById('spoiler_id').style.display=''; document.getElementById('show_id').style.display='none';" class="link">[Show all recipes] <img src="../images/arrow_up.png" id="spoiler_arrow" width="20"/></a><span id="spoiler_id" style="display: none"><a onclick="document.getElementById('spoiler_id').style.display='none'; document.getElementById('show_id').style.display='';" class="link">[Hide all recipes] <img src="../images/arrow_down.png" id="spoiler_arrow" width="20"/></a><br>
+				<a id="show_id" onclick="document.getElementById('spoiler_id').style.display=''; document.getElementById('show_id').style.display='none';" class="link">[Show all recipes] <img src="../images/arrow_up.svg" id="spoiler_arrow" width="20"/></a><span id="spoiler_id" style="display: none"><a onclick="document.getElementById('spoiler_id').style.display='none'; document.getElementById('show_id').style.display='';" class="link">[Hide all recipes] <img src="../images/arrow_down.svg" id="spoiler_arrow" width="20"/></a><br>
 					<div id="spoiler_content">
 						8x Grass + 1x Dirt &rarr; 8x Podzol<br>
 						8x Grass + 1x Brown Mushroom &rarr; 8x Mycelium<br>
