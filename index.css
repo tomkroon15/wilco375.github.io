@@ -1,4 +1,8 @@
 /*--------------Site defaults-------------*/
+.adsbygoogle{
+	position:fixed;
+	z-index:1;
+}
 body{
     font-family: "arial";
 	background-color: #33CC33;
