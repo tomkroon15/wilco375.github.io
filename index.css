@@ -36,7 +36,6 @@ a:hover, a:visited, a:link, a:active{
 }
 #navbar_div{
 	position: fixed;
-	z-index:-1;
 	top: 0;
 	background-color:#33CC33;
 	left: 10px;
