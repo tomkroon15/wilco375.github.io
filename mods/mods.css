@@ -1,6 +1,6 @@
 /*--------------Site defaults-------------*/
 .adsbygoogle{
-	position:fixed;
+	position:absolute;
 	z-index:1;
 }
 body{
