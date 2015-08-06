@@ -34,7 +34,7 @@ a:hover, a:visited, a:link, a:active{
 	/*border: 10px solid #70DB70;*/
 	padding: 10px;
 }
-arrow_up.svg#navbar_div{
+#navbar_div{
 	position: fixed;
 	z-index: -1;
 	top: 0;
