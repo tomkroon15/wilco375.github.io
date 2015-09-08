@@ -105,7 +105,7 @@ b{
 	padding:2.5px;
 	margin-top:5px;
 }
-iframe{
+iframe:not(.adsbygoogle ins ins iframe){
 	width:90%;
 }
 

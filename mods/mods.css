@@ -108,7 +108,7 @@ b{
 .mod_img{
 	width:70%;
 }
-iframe{
+iframe:not(.adsbygoogle ins ins iframe){
 	width:500px;
 	max-width:100%;
 }
