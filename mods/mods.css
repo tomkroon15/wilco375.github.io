@@ -106,7 +106,8 @@ b{
 	margin-top:5px;
 }
 .mod_img{
-	width:70%;
+	max-width:70%;
+	max-height:200px;
 }
 iframe:not(.adsbygoogle ins ins iframe){
 	width:500px;

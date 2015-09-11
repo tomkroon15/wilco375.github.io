@@ -112,7 +112,8 @@ iframe:not(.adsbygoogle ins ins iframe){
 	500px;
 }
 .mod_img{
-	width:90%;
+	max-width:90%;	
+	max-height:300px;
 }
 
 
