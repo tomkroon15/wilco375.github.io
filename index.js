@@ -10,8 +10,6 @@ if(typeof fuckAdBlock === "undefined") {
 } else {
     fuckAdBlock.onDetected(adBlockDetected);
     fuckAdBlock.onNotDetected(adBlockNotDetected);
-    fuckAdBlock.on(true, adBlockDetected);
-    fuckAdBlock.on(false, adBlockNotDetected);
 }
 
 function onMobileNavbarClick(){
